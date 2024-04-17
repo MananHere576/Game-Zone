@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Word Guessing Game</title>
+    <link rel="icon" type="image/png" href="im.webp">
+    <link rel="stylesheet" href="G6.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="wrapper">
+      <center><b><h1>GUESS THE WORD</h1></b></center>
+      <div class="content">
+        <input type="text" class="typing-input" maxlength="1">
+        <div class="inputs"></div>
+        <div class="details">
+          <p class="hint">Hint: <span></span></p>
+          <p class="guess-left">Remaining guesses: <span></span></p>
+          <p class="wrong-letter">Wrong letters: <span></span></p>
+        </div>
+        <button class="reset-btn">Reset Game</button>
+      </div>
+    </div>
+
+    <script src="word.js"></script>
+    <script src="G6.js"></script>
+
+  </body>
+</html>
